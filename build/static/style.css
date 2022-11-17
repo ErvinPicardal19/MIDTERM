@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color: bisque;
+    padding: 5rem 3rem;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 3rem;
+}
